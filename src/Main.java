@@ -13,7 +13,7 @@ public class Main {
         biblioteka.wypozyczKsiazke("Solaris", czytelnik);
         czytelnik.wypiszDane();
 
-        System.out.println("--- Po wypożyczeniu");
+        System.out.println("--- Po wypożyczeniu ---");
         biblioteka.wypiszDostepneKsiazki();
 
         System.out.println("--- Zwrot ---");
