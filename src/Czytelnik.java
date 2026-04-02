@@ -11,8 +11,8 @@ public class Czytelnik {
         this.liczbaWypozyczen = 0;
     }
 
-    public String wypiszDane() {
-        System.out.println("Czytelnik: " + imie + " " + nazwisko " (Karta: " + numerKarty + ") Wypożyczone: " + liczbaWypozyczen);
+    public void wypiszDane() {
+        System.out.println("Czytelnik: " + imie + " " + nazwisko +" (Karta: " + numerKarty + ") Wypożyczone: " + liczbaWypozyczen);
     }
 
     public void zwiekszLiczbeWypozyczen() {

@@ -4,7 +4,7 @@ public class Ksiazka {
     private int liczbaStron;
     private boolean dostepna;
 
-    public Ksiazka(String tytul, String autor, int liczbaStron boolean dostepna) {
+    public Ksiazka(String tytul, String autor, int liczbaStron, boolean dostepna) {
         this.tytul = tytul;
         this.autor = autor;
         this.liczbaStron = liczbaStron;

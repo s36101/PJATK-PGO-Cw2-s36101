@@ -10,7 +10,7 @@ public class Main {
         biblioteka.wypiszDostepneKsiazki();
 
         System.out.println("--- Wypożyczanie ---");
-        biblioteka.wypiszDostepneKsiazki("Solaris", czytelnik);
+        biblioteka.wypozyczKsiazke("Solaris", czytelnik);
         czytelnik.wypiszDane();
 
         System.out.println("--- Po wypożyczeniu");
